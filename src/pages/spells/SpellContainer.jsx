@@ -27,7 +27,7 @@ export default class SpellContainer extends Component {
             <p><NavLink exact to="/healing-touch" >Healing Touch</NavLink></p>
             <p><NavLink exact to="/rejuvenation" >Rejuvenation</NavLink></p>
             <p><NavLink exact to="/regrowth" >Regrowth</NavLink></p>
-            <p><NavLink exact to="/swiftmend" >Swiftmend</NavLink></p>
+            {/* {<p><NavLink exact to="/swiftmend" >Swiftmend</NavLink></p>} */}
           </div>
           <div>
             <h2>Paladin</h2>
