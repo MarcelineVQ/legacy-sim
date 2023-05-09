@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/legacy-sim/static/css/main.1cd6dc54.chunk.css",
+    "main.js": "/legacy-sim/static/js/main.8c12e56c.chunk.js",
+    "main.js.map": "/legacy-sim/static/js/main.8c12e56c.chunk.js.map",
+    "runtime~main.js": "/legacy-sim/static/js/runtime~main.1f74ce5e.js",
+    "runtime~main.js.map": "/legacy-sim/static/js/runtime~main.1f74ce5e.js.map",
+    "static/js/2.694bc051.chunk.js": "/legacy-sim/static/js/2.694bc051.chunk.js",
+    "static/js/2.694bc051.chunk.js.map": "/legacy-sim/static/js/2.694bc051.chunk.js.map",
+    "index.html": "/legacy-sim/index.html",
+    "precache-manifest.1ca63d6b8d3bc3951fc0e73fc9897368.js": "/legacy-sim/precache-manifest.1ca63d6b8d3bc3951fc0e73fc9897368.js",
+    "service-worker.js": "/legacy-sim/service-worker.js",
+    "static/css/main.1cd6dc54.chunk.css.map": "/legacy-sim/static/css/main.1cd6dc54.chunk.css.map"
+  }
+}
