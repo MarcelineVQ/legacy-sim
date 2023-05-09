@@ -175,8 +175,8 @@ const healingView = ({
             bonus healing is not affected by talents)</dd>
           <dt>Crit Bonus</dt>
           <dd>This is the average bonus provided by crit. </dd>
-          <dt>HPS</dt>
-          <dd>Max healing per second.</dd>
+          <dt>HPSC</dt>
+          <dd>Total healing divided by cast time. Not especially useful for HoTs, examine the tick amount instead.</dd>
           <dt>Efficiency</dt>
           <dd>The amount of healing provided by 1 point of mana.</dd>
         </dl>

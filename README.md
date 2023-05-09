@@ -1,6 +1,7 @@
 ## Turtle WoW Version
 
-Updated this a bit to see how my rdudu spells were doing and what the real benefit of Tree Form was.
+Updated this a bit to see how my rdudu spells were doing and what the real benefit of Tree Form was.  
+Swiftmend isn't implmented yet.  
 
 Try yourself locally after cloning with:  
 `npm install`  
