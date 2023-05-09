@@ -109,7 +109,7 @@ const healingView = ({
               {spell.hot &&
                 <th width='8%' className='text-right'> Tick </th>
               }
-              <th width='12%' className='text-right'> HPS </th>
+              <th width='12%' className='text-right'> HPSC </th>
               <th width='12%' className='text-right'> Efficiency </th>
             </tr>
           </thead>
@@ -142,7 +142,21 @@ const healingView = ({
                   }
                 </td>
                 <td className='text-right'>{rank.crit}</td>
-                <td className='text-right'>{rank.total}</td>
+                <td className='text-right'>
+                  {spell.direct &&
+                    <span>{ (parseFloat(rank.base) + parseFloat(rank.bonus)).toFixed(2) }</span>
+                  }
+                  {spell.hot &&
+                    <span>
+                      {spell.direct && <span>+</span>}
+                      <span>{ rank.hot + rank.bonusHot }</span>
+                      {spell.direct && <span>={ rank.total }</span>}
+                    </span>
+                  }
+                  {spell.hot && spell.direct &&
+                    <span>{spell.total}</span>
+                  }
+                </td>
                 {spell.hot &&
                   <td className='text-right'>{rank.hotTick}</td>
                 }

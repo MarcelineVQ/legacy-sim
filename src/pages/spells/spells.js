@@ -60,6 +60,14 @@ export const rejuvenation = {
   ],
 };
 
+export const swiftmend = {
+  name: 'Swiftmend',
+  description: 'Consumes an active druid HoT on the target, healing for an amount based on the HoT.',
+  direct: false,
+  hot: true,
+  ranks: [...rejuvenation.ranks, ...regrowth.ranks]
+};
+
 export const flashHeal = {
   name: 'Flash Heal',
   description: 'Heals a friendly target',

@@ -11,11 +11,12 @@ class regrowth extends Component {
 
   componentWillMount() {
     this.props.initialize({
-      healing: 500,
+      healing: 429,
       crit: 15,
-      spirit: 300,
-      improvedRegrowth: true,
-      tranquilSpirit: true,
+      spirit: 289,
+      // improvedRegrowth: true,
+      // improvedRegrowth: true,
+      // tranquilSpirit: true,
       giftOfNature: true,
     });
   }
@@ -23,9 +24,10 @@ class regrowth extends Component {
   render() {
     return (
       <HealingContainer
-        spell={ spells.regrowth }
+        spell={ spells.swiftmend }
         talents={ [
           talents.improvedRegrowth,
+          talents.improvedRejuvenation,
           talents.giftOfNature,
           talents.moonglow,
           talents.naturesGrace,

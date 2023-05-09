@@ -124,6 +124,11 @@ class HealingContainer extends Component {
               <Field name='crit' component='input' type='number' min='0' max='100' />
             </label>
           </div>
+          <div className='large-4 columns'>
+            <label htmlFor='spirit'>Spirit
+              <Field name='spirit' component='input' type='number' min='0' max='999' />
+            </label>
+          </div>
           <div className='large-4 columns' />
         </div>
       </HealingView>

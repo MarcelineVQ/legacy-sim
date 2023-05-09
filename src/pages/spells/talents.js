@@ -76,6 +76,18 @@ export const t3Druid4set = {
   effect: ({ modifiedRank, rank }) => { modifiedRank.mana -= rank.mana * 0.03; },
 };
 
+export const treeOfLife = {
+  field: 'treeOfLife',
+  name: 'Tree of Life',
+  description: 'Reduces the mana cost of your Healing over Time spells by 20%',
+  effect: ({ modifiedRank, rank, character}) => {
+    modifiedRank.mana -= rank.mana * 0.2;
+    modifiedRank.min += character.spirit * 0.2;
+    modifiedRank.max += character.spirit * 0.2;;
+    modifiedRank.hotTick += character.spirit * 0.2;;
+  },
+};
+
 export const t3Druid8set = {
   field: 't3Druid8set',
   name: 'T3 8 Set Bonus',

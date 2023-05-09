@@ -13,6 +13,7 @@ class rejuvenation extends Component {
     this.props.initialize({
       healing: 500,
       crit: 15,
+      spirit: 300,
       improvedRejuvenation: true,
       tranquilSpirit: true,
       giftOfNature: true,
@@ -30,6 +31,7 @@ class rejuvenation extends Component {
           talents.amplifyMagic,
           talents.t2Druid8set,
           talents.t3Druid4set,
+          talents.treeOfLife,
         ] }
         formValues={ this.props.formValues }
       />
